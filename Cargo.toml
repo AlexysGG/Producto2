@@ -1,0 +1,19 @@
+[package]
+name = "soap_multillenguaje"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking"] }
+
+[[bin]]
+name = "clisoap1"
+path = "rust/version1-soapru/clisoap1ru.rs" 
+
+[[bin]]
+name = "clisoap2"
+path = "rust/version1-soapru/clisoap2ru.rs"
+
+[[bin]]
+name = "conintl"
+path = "rust/version1-soapru/conintlru.rs"
